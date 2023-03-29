@@ -7,13 +7,6 @@ This is the starting point for teaching an intro to .NET Core WebAPI project. Th
 
 # Entity Framework
 
-Lecture code:
-
-Server side code (.NET API) https://github.com/PrimeAcademy/dotnet-bakery
-
-> Note: there is also a client-side React app that can be used to talk to the .NET API: https://github.com/PrimeAcademy/dotnet-bakery-clientside. For this lecture, it may be easier to focus on the .NET code, and use Postman to test it. 
-
-
 `Entity Framework`, or `EF`, is an ORM -- an Object-Relational Mapper. This is a way of converting our C# classes and data into Database data and back again. It also helps ensure our data objects match our table schemas.
 
 EF can be either DATABASE-FIRST or MODEL-FIRST. Database first means you make the tables, and then EF makes your Model. MODEL first means you make your model, and EF makes your tables. It's quite cool!
